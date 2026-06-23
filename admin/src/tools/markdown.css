@@ -1,0 +1,120 @@
+/* markdown样式 */
+.desc-markdown {
+  font-size: 16px;
+  color: black;
+  background: rgba(255,255,255,1);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+img{
+  max-height: 300px;
+  display: block;
+  box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.4);
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+/* 代码块样式 */
+.desc-markdown pre{
+  background: #282c34 !important;
+  color: #fff !important;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin: 10px 0;
+}
+
+/* 代码块内的代码样式 */
+.desc-markdown pre code{
+  
+}
+
+/* 普通文本样式 */
+.desc-markdown p{
+  color: black;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+/* 行内代码样式 */
+.desc-markdown p code{
+  font-family: "Fira Mono", "Consolas", "Menlo", monospace;
+  font-size: 15px;
+  background: #1a3769;
+  color: #fff;
+  border-radius: 5px;
+  padding: 2px 10px;
+}
+
+/* 标题样式 */
+.desc-markdown h1,
+.desc-markdown h2,
+.desc-markdown h3,
+.desc-markdown h4,
+.desc-markdown h5,
+.desc-markdown h6{
+  color: black;
+  margin: 10px 0 10px 0;
+  font-weight: 600;
+}
+
+.desc-markdown h1{
+  margin-top: 20px;
+  border-bottom: 3px solid #1a3769;
+}
+.desc-markdown h2{
+  border-left:10px solid #b40b30;
+  padding-left: 10px;
+}
+
+/* 列表样式 */
+.desc-markdown ul,
+.desc-markdown ol {
+  margin: 10px 0;
+  padding-left: 20px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.desc-markdown li {
+  margin: 5px 0;
+  color : #1a3769;
+  font-weight: 700;
+}
+
+/* 引用样式 */
+.desc-markdown blockquote{
+  border: 2px dotted #4b8cff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #d7dde7;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* 表格样式 */
+.desc-markdown table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.desc-markdown th,
+.desc-markdown td{
+  border: 1px solid black;
+  padding: 8px 8px;
+  text-align: left;
+}
+
+/* 链接样式 */
+.desc-markdown a{
+  color: #4b8cff;
+  text-decoration: none;
+  font-weight: 700;
+}
+.desc-markdown a:hover {
+  text-decoration: underline;
+}
